@@ -16,6 +16,13 @@
 		AA888CDF2C86AC1A00332E89 /* YuGiOhVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CDE2C86AC1A00332E89 /* YuGiOhVIPTests.swift */; };
 		AA888CE92C86AC1A00332E89 /* YuGiOhVIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CE82C86AC1A00332E89 /* YuGiOhVIPUITests.swift */; };
 		AA888CEB2C86AC1A00332E89 /* YuGiOhVIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CEA2C86AC1A00332E89 /* YuGiOhVIPUITestsLaunchTests.swift */; };
+		AA888CFA2C86AD4F00332E89 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CF92C86AD4F00332E89 /* Image+Extension.swift */; };
+		AA9F1E882C88F9100078A805 /* ModelCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E872C88F9100078A805 /* ModelCards.swift */; };
+		AA9F1E8B2C88F9480078A805 /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E8A2C88F9480078A805 /* TapBarController.swift */; };
+		AA9F1E8E2C88F9910078A805 /* CardsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E8D2C88F9910078A805 /* CardsWebService.swift */; };
+		AA9F1E902C88F9A70078A805 /* ErrorsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E8F2C88F9A70078A805 /* ErrorsWebService.swift */; };
+		AA9F1E932C88F9C00078A805 /* CardsPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E922C88F9C00078A805 /* CardsPaths.swift */; };
+		AA9F1E952C88F9D70078A805 /* CardsUrlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E942C88F9D70078A805 /* CardsUrlConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		AA888CE42C86AC1A00332E89 /* YuGiOhVIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuGiOhVIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA888CE82C86AC1A00332E89 /* YuGiOhVIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuGiOhVIPUITests.swift; sourceTree = "<group>"; };
 		AA888CEA2C86AC1A00332E89 /* YuGiOhVIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuGiOhVIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA888CF92C86AD4F00332E89 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		AA9F1E872C88F9100078A805 /* ModelCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCards.swift; sourceTree = "<group>"; };
+		AA9F1E8A2C88F9480078A805 /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
+		AA9F1E8D2C88F9910078A805 /* CardsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsWebService.swift; sourceTree = "<group>"; };
+		AA9F1E8F2C88F9A70078A805 /* ErrorsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorsWebService.swift; sourceTree = "<group>"; };
+		AA9F1E922C88F9C00078A805 /* CardsPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsPaths.swift; sourceTree = "<group>"; };
+		AA9F1E942C88F9D70078A805 /* CardsUrlConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUrlConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,12 @@
 		AA888CC62C86AC1700332E89 /* YuGiOhVIP */ = {
 			isa = PBXGroup;
 			children = (
+				AA9F1E862C88F8F50078A805 /* ModelCards */,
+				AA9F1E892C88F92E0078A805 /* TapBarController */,
+				AA888CF72C86AD2E00332E89 /* Extension */,
+				AA9F1E8C2C88F9680078A805 /* Services */,
+				AA9F1E962C88F9F70078A805 /* Views */,
+				AA9F1E982C88FA5C0078A805 /* Modules */,
 				AA888CC72C86AC1700332E89 /* AppDelegate.swift */,
 				AA888CC92C86AC1700332E89 /* SceneDelegate.swift */,
 				AA888CCB2C86AC1700332E89 /* ViewController.swift */,
@@ -125,6 +145,151 @@
 				AA888CEA2C86AC1A00332E89 /* YuGiOhVIPUITestsLaunchTests.swift */,
 			);
 			path = YuGiOhVIPUITests;
+			sourceTree = "<group>";
+		};
+		AA888CF72C86AD2E00332E89 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA888CF82C86AD3500332E89 /* Image+Extension */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AA888CF82C86AD3500332E89 /* Image+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA888CF92C86AD4F00332E89 /* Image+Extension.swift */,
+			);
+			path = "Image+Extension";
+			sourceTree = "<group>";
+		};
+		AA9F1E862C88F8F50078A805 /* ModelCards */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F1E872C88F9100078A805 /* ModelCards.swift */,
+			);
+			path = ModelCards;
+			sourceTree = "<group>";
+		};
+		AA9F1E892C88F92E0078A805 /* TapBarController */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F1E8A2C88F9480078A805 /* TapBarController.swift */,
+			);
+			path = TapBarController;
+			sourceTree = "<group>";
+		};
+		AA9F1E8C2C88F9680078A805 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F1E8D2C88F9910078A805 /* CardsWebService.swift */,
+				AA9F1E8F2C88F9A70078A805 /* ErrorsWebService.swift */,
+				AA9F1E922C88F9C00078A805 /* CardsPaths.swift */,
+				AA9F1E942C88F9D70078A805 /* CardsUrlConfiguration.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA9F1E962C88F9F70078A805 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA9F1E982C88FA5C0078A805 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F1E9A2C88FAD50078A805 /* MonsterCards */,
+				AA9F1E9B2C88FB0C0078A805 /* MagicCards */,
+				AA9F1E9C2C88FB250078A805 /* TrapCards */,
+				AA9F1E9D2C88FB3C0078A805 /* FusionCards */,
+				AA9F1E9E2C88FB4C0078A805 /* RitualCards */,
+				AA9F1E9F2C88FB580078A805 /* XYZCards */,
+				AA9F1EA02C88FB660078A805 /* PendulumCards */,
+				AA9F1EA12C88FBCF0078A805 /* SynchroCards */,
+				AA9F1EA22C88FBD80078A805 /* LinkCards */,
+				AA9F1EA32C88FBE40078A805 /* TokenCards */,
+				AA9F1E992C88FA7B0078A805 /* DetailCardView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AA9F1E992C88FA7B0078A805 /* DetailCardView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailCardView;
+			sourceTree = "<group>";
+		};
+		AA9F1E9A2C88FAD50078A805 /* MonsterCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MonsterCards;
+			sourceTree = "<group>";
+		};
+		AA9F1E9B2C88FB0C0078A805 /* MagicCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MagicCards;
+			sourceTree = "<group>";
+		};
+		AA9F1E9C2C88FB250078A805 /* TrapCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TrapCards;
+			sourceTree = "<group>";
+		};
+		AA9F1E9D2C88FB3C0078A805 /* FusionCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FusionCards;
+			sourceTree = "<group>";
+		};
+		AA9F1E9E2C88FB4C0078A805 /* RitualCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RitualCards;
+			sourceTree = "<group>";
+		};
+		AA9F1E9F2C88FB580078A805 /* XYZCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XYZCards;
+			sourceTree = "<group>";
+		};
+		AA9F1EA02C88FB660078A805 /* PendulumCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PendulumCards;
+			sourceTree = "<group>";
+		};
+		AA9F1EA12C88FBCF0078A805 /* SynchroCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SynchroCards;
+			sourceTree = "<group>";
+		};
+		AA9F1EA22C88FBD80078A805 /* LinkCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkCards;
+			sourceTree = "<group>";
+		};
+		AA9F1EA32C88FBE40078A805 /* TokenCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TokenCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +423,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9F1E932C88F9C00078A805 /* CardsPaths.swift in Sources */,
+				AA9F1E8E2C88F9910078A805 /* CardsWebService.swift in Sources */,
 				AA888CCC2C86AC1700332E89 /* ViewController.swift in Sources */,
+				AA9F1E8B2C88F9480078A805 /* TapBarController.swift in Sources */,
 				AA888CC82C86AC1700332E89 /* AppDelegate.swift in Sources */,
+				AA9F1E882C88F9100078A805 /* ModelCards.swift in Sources */,
+				AA9F1E902C88F9A70078A805 /* ErrorsWebService.swift in Sources */,
 				AA888CCA2C86AC1700332E89 /* SceneDelegate.swift in Sources */,
+				AA9F1E952C88F9D70078A805 /* CardsUrlConfiguration.swift in Sources */,
+				AA888CFA2C86AD4F00332E89 /* Image+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

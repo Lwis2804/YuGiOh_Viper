@@ -23,6 +23,9 @@
 		AA9F1E902C88F9A70078A805 /* ErrorsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E8F2C88F9A70078A805 /* ErrorsWebService.swift */; };
 		AA9F1E932C88F9C00078A805 /* CardsPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E922C88F9C00078A805 /* CardsPaths.swift */; };
 		AA9F1E952C88F9D70078A805 /* CardsUrlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E942C88F9D70078A805 /* CardsUrlConfiguration.swift */; };
+		AA9F1EA62C88FDAA0078A805 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EA52C88FDAA0078A805 /* String+Extension.swift */; };
+		AA9F1EAA2C88FDCF0078A805 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EA92C88FDCF0078A805 /* View+Extension.swift */; };
+		AA9F1EAE2C88FE000078A805 /* TableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EAD2C88FE000078A805 /* TableViewCell+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		AA9F1E8F2C88F9A70078A805 /* ErrorsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorsWebService.swift; sourceTree = "<group>"; };
 		AA9F1E922C88F9C00078A805 /* CardsPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsPaths.swift; sourceTree = "<group>"; };
 		AA9F1E942C88F9D70078A805 /* CardsUrlConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUrlConfiguration.swift; sourceTree = "<group>"; };
+		AA9F1EA52C88FDAA0078A805 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		AA9F1EA92C88FDCF0078A805 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		AA9F1EAD2C88FE000078A805 /* TableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,17 +156,20 @@
 		AA888CF72C86AD2E00332E89 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				AA888CF82C86AD3500332E89 /* Image+Extension */,
+				AA9F1EAB2C88FDD90078A805 /* TableViewCell */,
+				AA9F1EA72C88FDB40078A805 /* View */,
+				AA9F1EA42C88FD7B0078A805 /* String */,
+				AA888CF82C86AD3500332E89 /* Image */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		AA888CF82C86AD3500332E89 /* Image+Extension */ = {
+		AA888CF82C86AD3500332E89 /* Image */ = {
 			isa = PBXGroup;
 			children = (
 				AA888CF92C86AD4F00332E89 /* Image+Extension.swift */,
 			);
-			path = "Image+Extension";
+			path = Image;
 			sourceTree = "<group>";
 		};
 		AA9F1E862C88F8F50078A805 /* ModelCards */ = {
@@ -290,6 +299,30 @@
 			children = (
 			);
 			path = TokenCards;
+			sourceTree = "<group>";
+		};
+		AA9F1EA42C88FD7B0078A805 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F1EA52C88FDAA0078A805 /* String+Extension.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		AA9F1EA72C88FDB40078A805 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F1EA92C88FDCF0078A805 /* View+Extension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA9F1EAB2C88FDD90078A805 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F1EAD2C88FE000078A805 /* TableViewCell+Extension.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,7 +456,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9F1EAE2C88FE000078A805 /* TableViewCell+Extension.swift in Sources */,
 				AA9F1E932C88F9C00078A805 /* CardsPaths.swift in Sources */,
+				AA9F1EA62C88FDAA0078A805 /* String+Extension.swift in Sources */,
 				AA9F1E8E2C88F9910078A805 /* CardsWebService.swift in Sources */,
 				AA888CCC2C86AC1700332E89 /* ViewController.swift in Sources */,
 				AA9F1E8B2C88F9480078A805 /* TapBarController.swift in Sources */,
@@ -432,6 +467,7 @@
 				AA9F1E902C88F9A70078A805 /* ErrorsWebService.swift in Sources */,
 				AA888CCA2C86AC1700332E89 /* SceneDelegate.swift in Sources */,
 				AA9F1E952C88F9D70078A805 /* CardsUrlConfiguration.swift in Sources */,
+				AA9F1EAA2C88FDCF0078A805 /* View+Extension.swift in Sources */,
 				AA888CFA2C86AD4F00332E89 /* Image+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,8 +1,11 @@
-//
-//  String+Extension.swift
-//  YuGiOhVIP
-//
-//  Created by LUIS GONZALEZ on 04/09/24.
-//
 
-import Foundation
+
+import UIKit
+
+/*
+extension String : PathsProtocol {
+    var pathToUse: String {
+        return self
+    }
+}
+*/

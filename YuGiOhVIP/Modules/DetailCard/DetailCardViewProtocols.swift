@@ -1,4 +1,4 @@
-//  MonsterCardsProtocols.swift
+//  DetailCardViewProtocols.swift
 //  YuGiOhVIP
 //  Created by LUIS GONZALEZ on 11/09/24.
 //  
@@ -22,10 +22,10 @@ import Foundation
  */
 
 // MARK: VIEW -> PRESENTER
-protocol MonsterCards_ViewToPresenterProtocol: AnyObject {
-	var view: MonsterCards_PresenterToViewProtocol? { get set }
-	var interactor: MonsterCards_PresenterToInteractorProtocol? { get set }
-	var router: MonsterCards_PresenterToRouterProtocol? { get set }
+protocol DetailCardView_ViewToPresenterProtocol: AnyObject {
+	var view: DetailCardView_PresenterToViewProtocol? { get set }
+	var interactor: DetailCardView_PresenterToInteractorProtocol? { get set }
+	var router: DetailCardView_PresenterToRouterProtocol? { get set }
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -47,8 +47,8 @@ protocol MonsterCards_ViewToPresenterProtocol: AnyObject {
  */
 
 // MARK: PRESENTER -> INTERACTOR
-protocol MonsterCards_PresenterToInteractorProtocol: AnyObject {
-    var presenter: MonsterCards_InteractorToPresenterProtocol? { get set }
+protocol DetailCardView_PresenterToInteractorProtocol: AnyObject {
+    var presenter: DetailCardView_InteractorToPresenterProtocol? { get set }
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -70,7 +70,7 @@ protocol MonsterCards_PresenterToInteractorProtocol: AnyObject {
  */
 
 // MARK: INTERACTOR -> PRESENTER
-protocol MonsterCards_InteractorToPresenterProtocol: AnyObject {
+protocol DetailCardView_InteractorToPresenterProtocol: AnyObject {
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -86,8 +86,8 @@ protocol MonsterCards_InteractorToPresenterProtocol: AnyObject {
  */
 
 // MARK: PRESENTER -> VIEW
-protocol MonsterCards_PresenterToViewProtocol: AnyObject {
-    var presenter: MonsterCards_ViewToPresenterProtocol? { get set }
+protocol DetailCardView_PresenterToViewProtocol: AnyObject {
+    var presenter: DetailCardView_ViewToPresenterProtocol? { get set }
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -102,10 +102,5 @@ protocol MonsterCards_PresenterToViewProtocol: AnyObject {
  */
 
 // MARK: PRESENTER -> ROUTER
-protocol MonsterCards_PresenterToRouterProtocol: AnyObject {
-}
-
-
-protocol PathsProtocol {
-    var pathToUse : String { get } // NO ME QUEDA MUY CLARO EL USO DE ESTA VARIABLE, ES SOLO DE LECTURA PERO COMO LA ESTOY USANDO
+protocol DetailCardView_PresenterToRouterProtocol: AnyObject {
 }

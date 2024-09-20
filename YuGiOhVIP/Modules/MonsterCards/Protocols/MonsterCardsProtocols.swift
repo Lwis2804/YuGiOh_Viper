@@ -26,6 +26,8 @@ protocol MonsterCards_ViewToPresenterProtocol: AnyObject {
 	var view: MonsterCards_PresenterToViewProtocol? { get set }
 	var interactor: MonsterCards_PresenterToInteractorProtocol? { get set }
 	var router: MonsterCards_PresenterToRouterProtocol? { get set }
+    
+    func getToMonsterCards()
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -49,6 +51,8 @@ protocol MonsterCards_ViewToPresenterProtocol: AnyObject {
 // MARK: PRESENTER -> INTERACTOR
 protocol MonsterCards_PresenterToInteractorProtocol: AnyObject {
     var presenter: MonsterCards_InteractorToPresenterProtocol? { get set }
+    
+    func getMonsterCardsToInteractor()
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -71,6 +75,8 @@ protocol MonsterCards_PresenterToInteractorProtocol: AnyObject {
 
 // MARK: INTERACTOR -> PRESENTER
 protocol MonsterCards_InteractorToPresenterProtocol: AnyObject {
+    
+    func getMonsterCardsFromInteractor(withResponse response : CardResponse)
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -88,6 +94,8 @@ protocol MonsterCards_InteractorToPresenterProtocol: AnyObject {
 // MARK: PRESENTER -> VIEW
 protocol MonsterCards_PresenterToViewProtocol: AnyObject {
     var presenter: MonsterCards_ViewToPresenterProtocol? { get set }
+    
+    func updateMonstercards(withResponse response : CardResponse)
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

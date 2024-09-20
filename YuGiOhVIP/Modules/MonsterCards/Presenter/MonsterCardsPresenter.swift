@@ -12,9 +12,16 @@ class MonsterCardsPresenter: MonsterCards_ViewToPresenterProtocol {
     var interactor: MonsterCards_PresenterToInteractorProtocol?
     var router: MonsterCards_PresenterToRouterProtocol?
     
+    func getToMonsterCards() {
+        interactor?.getMonsterCardsToInteractor()
+    }
 }
 
 // MARK: - I N T E R A C T O R · T O · P R E S E N T E R
 extension MonsterCardsPresenter: MonsterCards_InteractorToPresenterProtocol {
+    func getMonsterCardsFromInteractor(withResponse response: CardResponse) {
+        view?.updateMonstercards(withResponse: response)
+    }
+    
 
 }

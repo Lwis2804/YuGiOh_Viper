@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA6D0AFC2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0AFB2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift */; };
+		AA6D0AFE2C9D038D006BF170 /* MonsterCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6D0AFD2C9D038D006BF170 /* MonsterCardsViewController.xib */; };
+		AA6D0B022C9D0828006BF170 /* CardsMonsterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0B002C9D0828006BF170 /* CardsMonsterTableViewCell.swift */; };
+		AA6D0B032C9D0828006BF170 /* CardsMonsterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6D0B012C9D0828006BF170 /* CardsMonsterTableViewCell.xib */; };
 		AA888CC82C86AC1700332E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CC72C86AC1700332E89 /* AppDelegate.swift */; };
 		AA888CCA2C86AC1700332E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CC92C86AC1700332E89 /* SceneDelegate.swift */; };
 		AA888CCC2C86AC1700332E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CCB2C86AC1700332E89 /* ViewController.swift */; };
@@ -42,8 +46,6 @@
 		AAC8FD332C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD312C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib */; };
 		AAC8FD362C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD342C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift */; };
 		AAC8FD372C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD352C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib */; };
-		AAC8FD3A2C9B8CC800B4AE5A /* MonsterCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD382C9B8CC800B4AE5A /* MonsterCardsTableViewCell.swift */; };
-		AAC8FD3B2C9B8CC800B4AE5A /* MonsterCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD392C9B8CC800B4AE5A /* MonsterCardsTableViewCell.xib */; };
 		AAD8297A2C91F7F600FCC251 /* MonsterCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829752C91F7F600FCC251 /* MonsterCardsPresenter.swift */; };
 		AAD8297B2C91F7F600FCC251 /* MonsterCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829762C91F7F600FCC251 /* MonsterCardsRouter.swift */; };
 		AAD8297C2C91F7F600FCC251 /* MonsterCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829772C91F7F600FCC251 /* MonsterCardsViewController.swift */; };
@@ -131,6 +133,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA6D0AFB2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsViewControllerExtension.swift; sourceTree = "<group>"; };
+		AA6D0AFD2C9D038D006BF170 /* MonsterCardsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonsterCardsViewController.xib; sourceTree = "<group>"; };
+		AA6D0B002C9D0828006BF170 /* CardsMonsterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsMonsterTableViewCell.swift; sourceTree = "<group>"; };
+		AA6D0B012C9D0828006BF170 /* CardsMonsterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsMonsterTableViewCell.xib; sourceTree = "<group>"; };
 		AA888CC42C86AC1700332E89 /* YuGiOhVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuGiOhVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA888CC72C86AC1700332E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA888CC92C86AC1700332E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -170,8 +176,6 @@
 		AAC8FD312C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrapCardsTableViewCell.xib; sourceTree = "<group>"; };
 		AAC8FD342C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardsTableViewCell.swift; sourceTree = "<group>"; };
 		AAC8FD352C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MagicCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD382C9B8CC800B4AE5A /* MonsterCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD392C9B8CC800B4AE5A /* MonsterCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonsterCardsTableViewCell.xib; sourceTree = "<group>"; };
 		AAD829752C91F7F600FCC251 /* MonsterCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsPresenter.swift; sourceTree = "<group>"; };
 		AAD829762C91F7F600FCC251 /* MonsterCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsRouter.swift; sourceTree = "<group>"; };
 		AAD829772C91F7F600FCC251 /* MonsterCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsViewController.swift; sourceTree = "<group>"; };
@@ -266,6 +270,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA6D0AF52C9CFC85006BF170 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAD829772C91F7F600FCC251 /* MonsterCardsViewController.swift */,
+				AA6D0AFB2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift */,
+				AA6D0AFD2C9D038D006BF170 /* MonsterCardsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA6D0AF62C9CFCA1006BF170 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AAD829792C91F7F600FCC251 /* MonsterCardsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AA6D0AF72C9CFCBA006BF170 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AAD829782C91F7F600FCC251 /* MonsterCardsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AA6D0AF82C9CFCCF006BF170 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AAD829752C91F7F600FCC251 /* MonsterCardsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AA6D0AF92C9CFCF1006BF170 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AAD8297F2C91F82500FCC251 /* MonsterCardEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AA6D0AFA2C9CFD03006BF170 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AAD829762C91F7F600FCC251 /* MonsterCardsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		AA888CBB2C86AC1700332E89 = {
 			isa = PBXGroup;
 			children = (
@@ -419,12 +473,12 @@
 		AA9F1E9A2C88FAD50078A805 /* MonsterCards */ = {
 			isa = PBXGroup;
 			children = (
-				AAD829772C91F7F600FCC251 /* MonsterCardsViewController.swift */,
-				AAD829792C91F7F600FCC251 /* MonsterCardsInteractor.swift */,
-				AAD829782C91F7F600FCC251 /* MonsterCardsProtocols.swift */,
-				AAD829752C91F7F600FCC251 /* MonsterCardsPresenter.swift */,
-				AAD8297F2C91F82500FCC251 /* MonsterCardEntity.swift */,
-				AAD829762C91F7F600FCC251 /* MonsterCardsRouter.swift */,
+				AA6D0AF52C9CFC85006BF170 /* View */,
+				AA6D0AF62C9CFCA1006BF170 /* Interactor */,
+				AA6D0AF72C9CFCBA006BF170 /* Protocols */,
+				AA6D0AF82C9CFCCF006BF170 /* Presenter */,
+				AA6D0AF92C9CFCF1006BF170 /* Entity */,
+				AA6D0AFA2C9CFD03006BF170 /* Router */,
 			);
 			path = MonsterCards;
 			sourceTree = "<group>";
@@ -645,8 +699,8 @@
 		AAD82A132C92A3D100FCC251 /* MonsterCardsTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				AAC8FD382C9B8CC800B4AE5A /* MonsterCardsTableViewCell.swift */,
-				AAC8FD392C9B8CC800B4AE5A /* MonsterCardsTableViewCell.xib */,
+				AA6D0B002C9D0828006BF170 /* CardsMonsterTableViewCell.swift */,
+				AA6D0B012C9D0828006BF170 /* CardsMonsterTableViewCell.xib */,
 			);
 			path = MonsterCardsTableViewCell;
 			sourceTree = "<group>";
@@ -764,10 +818,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC8FD3B2C9B8CC800B4AE5A /* MonsterCardsTableViewCell.xib in Resources */,
 				AAC8FD2B2C9B8C5C00B4AE5A /* RitualCardsTableViewCell.xib in Resources */,
 				AAC8FD1F2C9B885200B4AE5A /* SynchroCardsTableViewCell.xib in Resources */,
+				AA6D0AFE2C9D038D006BF170 /* MonsterCardsViewController.xib in Resources */,
 				AAC8FD162C9B827F00B4AE5A /* LinkCardsTableViewCell.xib in Resources */,
+				AA6D0B032C9D0828006BF170 /* CardsMonsterTableViewCell.xib in Resources */,
 				AA888CD12C86AC1A00332E89 /* Assets.xcassets in Resources */,
 				AAD82A202C92A51C00FCC251 /* TokenCardsTableViewCell.xib in Resources */,
 				AAC8FD372C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib in Resources */,
@@ -811,7 +866,6 @@
 				AAD829C22C921E8700FCC251 /* XYZCardsViewController.swift in Sources */,
 				AAD829C32C921E8700FCC251 /* XYZCardsProtocols.swift in Sources */,
 				AAD829C42C921E8700FCC251 /* XYZCardsInteractor.swift in Sources */,
-				AAC8FD3A2C9B8CC800B4AE5A /* MonsterCardsTableViewCell.swift in Sources */,
 				AAD8297C2C91F7F600FCC251 /* MonsterCardsViewController.swift in Sources */,
 				AAD8297D2C91F7F600FCC251 /* MonsterCardsProtocols.swift in Sources */,
 				AAD8297E2C91F7F600FCC251 /* MonsterCardsInteractor.swift in Sources */,
@@ -831,6 +885,7 @@
 				AA9F1E932C88F9C00078A805 /* CardsPaths.swift in Sources */,
 				AA9F1EA62C88FDAA0078A805 /* String+Extension.swift in Sources */,
 				AA9F1E8E2C88F9910078A805 /* CardsWebService.swift in Sources */,
+				AA6D0AFC2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift in Sources */,
 				AA888CCC2C86AC1700332E89 /* ViewController.swift in Sources */,
 				AAC8FD322C9B8C7F00B4AE5A /* TrapCardsTableViewCell.swift in Sources */,
 				AA9F1E8B2C88F9480078A805 /* TapBarController.swift in Sources */,
@@ -875,6 +930,7 @@
 				AAD829952C921D9800FCC251 /* TrapCardsProtocols.swift in Sources */,
 				AAD829D62C921F2E00FCC251 /* PnedulumCardsEntity.swift in Sources */,
 				AAD829AE2C921E3500FCC251 /* TrapCardsEntity.swift in Sources */,
+				AA6D0B022C9D0828006BF170 /* CardsMonsterTableViewCell.swift in Sources */,
 				AAD829962C921D9800FCC251 /* TrapCardsInteractor.swift in Sources */,
 				AA888CFA2C86AD4F00332E89 /* Image+Extension.swift in Sources */,
 				AAD829A82C921E1B00FCC251 /* FiusionCardsPresenter.swift in Sources */,

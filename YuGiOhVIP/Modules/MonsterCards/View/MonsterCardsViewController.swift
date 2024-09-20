@@ -18,4 +18,8 @@ class MonsterCardsViewController: UIViewController {
 
 // MARK: - P R E S E N T E R · T O · V I E W
 extension MonsterCardsViewController: MonsterCards_PresenterToViewProtocol {
+    func updateMonstercards(withResponse response: CardResponse) {
+        <#code#>
+    }
+    
 }

@@ -24,7 +24,8 @@ enum cardsPath {
         switch self {
        
         case .getMonstersCards:
-            return "https://db.ygoprodeck.com/api/v7/cardinfo.php"
+            return "/api/v7/cardinfo.php"
+            // "https://db.ygoprodeck.com/api/v7/cardinfo.php"
         case .getMagicCards:
             return "https://db.ygoprodeck.com/api/v7/cardinfo.php"
         case .getTrapCards:

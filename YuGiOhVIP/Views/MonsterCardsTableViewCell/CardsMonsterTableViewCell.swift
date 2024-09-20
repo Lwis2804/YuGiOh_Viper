@@ -1,13 +1,14 @@
 //
-//  MonsterCardsTableViewCell.swift
+//  CardsMonsterTableViewCell.swift
 //  YuGiOhVIP
 //
-//  Created by LUIS GONZALEZ on 18/09/24.
+//  Created by LUIS GONZALEZ on 19/09/24.
 //
 
 import UIKit
 
-class MonsterCardsTableViewCell: UITableViewCell {
+class CardsMonsterTableViewCell: UITableViewCell {
+    
     
     
 

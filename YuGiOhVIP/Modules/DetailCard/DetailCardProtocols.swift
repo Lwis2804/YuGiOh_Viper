@@ -104,3 +104,8 @@ protocol DetailCard_PresenterToViewProtocol: AnyObject {
 // MARK: PRESENTER -> ROUTER
 protocol DetailCard_PresenterToRouterProtocol: AnyObject {
 }
+
+
+protocol PathsProtocol {
+    var pathToUse : String { get } // NO ME QUEDA MUY CLARO EL USO DE ESTA VARIABLE, ES SOLO DE LECTURA PERO COMO LA ESTOY USANDO
+}

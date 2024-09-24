@@ -24,7 +24,7 @@ class CardsWebService : NetworkApiProtocol {
             handler(.failure(.wrongUrl))
             return
         }
-        var strUrl = "\(url)"
+        let strUrl = "\(url)"
         URLSession.shared.dataTask(with: .init(url : URL(string: strUrl) ?? URL(fileURLWithPath: ""))) { data, response, _ in
             guard let data = data, let response = response as? HTTPURLResponse, (200...299).contains(response.statusCode) else {
                 handler(.failure(.wrongResposne))

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA6D0AFC2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0AFB2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift */; };
-		AA6D0AFE2C9D038D006BF170 /* MonsterCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6D0AFD2C9D038D006BF170 /* MonsterCardsViewController.xib */; };
 		AA888CC82C86AC1700332E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CC72C86AC1700332E89 /* AppDelegate.swift */; };
 		AA888CCA2C86AC1700332E89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CC92C86AC1700332E89 /* SceneDelegate.swift */; };
 		AA888CCC2C86AC1700332E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CCB2C86AC1700332E89 /* ViewController.swift */; };
@@ -28,89 +26,11 @@
 		AA9F1EA62C88FDAA0078A805 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EA52C88FDAA0078A805 /* String+Extension.swift */; };
 		AA9F1EAA2C88FDCF0078A805 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EA92C88FDCF0078A805 /* View+Extension.swift */; };
 		AA9F1EAE2C88FE000078A805 /* TableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EAD2C88FE000078A805 /* TableViewCell+Extension.swift */; };
-		AAC8FD152C9B827F00B4AE5A /* LinkCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD132C9B827F00B4AE5A /* LinkCardsTableViewCell.swift */; };
-		AAC8FD162C9B827F00B4AE5A /* LinkCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD142C9B827F00B4AE5A /* LinkCardsTableViewCell.xib */; };
-		AAC8FD1E2C9B885200B4AE5A /* SynchroCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD1C2C9B885200B4AE5A /* SynchroCardsTableViewCell.swift */; };
-		AAC8FD1F2C9B885200B4AE5A /* SynchroCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD1D2C9B885200B4AE5A /* SynchroCardsTableViewCell.xib */; };
-		AAC8FD222C9B8C2700B4AE5A /* PendulumCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD202C9B8C2700B4AE5A /* PendulumCardsTableViewCell.swift */; };
-		AAC8FD232C9B8C2700B4AE5A /* PendulumCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD212C9B8C2700B4AE5A /* PendulumCardsTableViewCell.xib */; };
-		AAC8FD262C9B8C4700B4AE5A /* XYZCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD242C9B8C4700B4AE5A /* XYZCardsTableViewCell.swift */; };
-		AAC8FD272C9B8C4700B4AE5A /* XYZCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD252C9B8C4700B4AE5A /* XYZCardsTableViewCell.xib */; };
-		AAC8FD2A2C9B8C5C00B4AE5A /* RitualCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD282C9B8C5C00B4AE5A /* RitualCardsTableViewCell.swift */; };
-		AAC8FD2B2C9B8C5C00B4AE5A /* RitualCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD292C9B8C5C00B4AE5A /* RitualCardsTableViewCell.xib */; };
-		AAC8FD2E2C9B8C7000B4AE5A /* FusionCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD2C2C9B8C7000B4AE5A /* FusionCardsTableViewCell.swift */; };
-		AAC8FD2F2C9B8C7000B4AE5A /* FusionCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD2D2C9B8C7000B4AE5A /* FusionCardsTableViewCell.xib */; };
-		AAC8FD322C9B8C7F00B4AE5A /* TrapCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD302C9B8C7F00B4AE5A /* TrapCardsTableViewCell.swift */; };
-		AAC8FD332C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD312C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib */; };
-		AAC8FD362C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC8FD342C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift */; };
-		AAC8FD372C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC8FD352C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib */; };
-		AAD8297A2C91F7F600FCC251 /* MonsterCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829752C91F7F600FCC251 /* MonsterCardsPresenter.swift */; };
-		AAD8297B2C91F7F600FCC251 /* MonsterCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829762C91F7F600FCC251 /* MonsterCardsRouter.swift */; };
-		AAD8297C2C91F7F600FCC251 /* MonsterCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829772C91F7F600FCC251 /* MonsterCardsViewController.swift */; };
-		AAD8297D2C91F7F600FCC251 /* MonsterCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829782C91F7F600FCC251 /* MonsterCardsProtocols.swift */; };
-		AAD8297E2C91F7F600FCC251 /* MonsterCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829792C91F7F600FCC251 /* MonsterCardsInteractor.swift */; };
-		AAD829802C91F82500FCC251 /* MonsterCardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8297F2C91F82500FCC251 /* MonsterCardEntity.swift */; };
-		AAD829862C921D4100FCC251 /* MagicCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829812C921D4100FCC251 /* MagicCardsPresenter.swift */; };
-		AAD829872C921D4100FCC251 /* MagicCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829822C921D4100FCC251 /* MagicCardsRouter.swift */; };
-		AAD829882C921D4100FCC251 /* MagicCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829832C921D4100FCC251 /* MagicCardsViewController.swift */; };
-		AAD829892C921D4100FCC251 /* MagicCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829842C921D4100FCC251 /* MagicCardsProtocols.swift */; };
-		AAD8298A2C921D4100FCC251 /* MagicCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829852C921D4100FCC251 /* MagicCardsInteractor.swift */; };
-		AAD8298C2C921D5F00FCC251 /* MagicCardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8298B2C921D5F00FCC251 /* MagicCardEntity.swift */; };
-		AAD829922C921D9800FCC251 /* TrapCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8298D2C921D9800FCC251 /* TrapCardsPresenter.swift */; };
-		AAD829932C921D9800FCC251 /* TrapCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8298E2C921D9800FCC251 /* TrapCardsRouter.swift */; };
-		AAD829942C921D9800FCC251 /* TrapCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8298F2C921D9800FCC251 /* TrapCardsViewController.swift */; };
-		AAD829952C921D9800FCC251 /* TrapCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829902C921D9800FCC251 /* TrapCardsProtocols.swift */; };
-		AAD829962C921D9800FCC251 /* TrapCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829912C921D9800FCC251 /* TrapCardsInteractor.swift */; };
-		AAD829982C921DE500FCC251 /* TrapCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829972C921DE500FCC251 /* TrapCardsEntity.swift */; };
-		AAD829A82C921E1B00FCC251 /* FiusionCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829A32C921E1B00FCC251 /* FiusionCardsPresenter.swift */; };
-		AAD829A92C921E1B00FCC251 /* FiusionCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829A42C921E1B00FCC251 /* FiusionCardsRouter.swift */; };
-		AAD829AA2C921E1B00FCC251 /* FiusionCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829A52C921E1B00FCC251 /* FiusionCardsViewController.swift */; };
-		AAD829AB2C921E1B00FCC251 /* FiusionCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829A62C921E1B00FCC251 /* FiusionCardsProtocols.swift */; };
-		AAD829AC2C921E1B00FCC251 /* FiusionCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829A72C921E1B00FCC251 /* FiusionCardsInteractor.swift */; };
-		AAD829AE2C921E3500FCC251 /* TrapCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829AD2C921E3500FCC251 /* TrapCardsEntity.swift */; };
-		AAD829B42C921E4C00FCC251 /* RitualCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829AF2C921E4C00FCC251 /* RitualCardsPresenter.swift */; };
-		AAD829B52C921E4C00FCC251 /* RitualCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829B02C921E4C00FCC251 /* RitualCardsRouter.swift */; };
-		AAD829B62C921E4C00FCC251 /* RitualCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829B12C921E4C00FCC251 /* RitualCardsViewController.swift */; };
-		AAD829B72C921E4C00FCC251 /* RitualCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829B22C921E4C00FCC251 /* RitualCardsProtocols.swift */; };
-		AAD829B82C921E4C00FCC251 /* RitualCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829B32C921E4C00FCC251 /* RitualCardsInteractor.swift */; };
-		AAD829BA2C921E6900FCC251 /* RitualCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829B92C921E6900FCC251 /* RitualCardsEntity.swift */; };
-		AAD829C02C921E8700FCC251 /* XYZCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829BB2C921E8700FCC251 /* XYZCardsPresenter.swift */; };
-		AAD829C12C921E8700FCC251 /* XYZCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829BC2C921E8700FCC251 /* XYZCardsRouter.swift */; };
-		AAD829C22C921E8700FCC251 /* XYZCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829BD2C921E8700FCC251 /* XYZCardsViewController.swift */; };
-		AAD829C32C921E8700FCC251 /* XYZCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829BE2C921E8700FCC251 /* XYZCardsProtocols.swift */; };
-		AAD829C42C921E8700FCC251 /* XYZCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829BF2C921E8700FCC251 /* XYZCardsInteractor.swift */; };
-		AAD829C82C921EB800FCC251 /* XYZCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829C72C921EB800FCC251 /* XYZCardsEntity.swift */; };
-		AAD829CE2C921EFD00FCC251 /* PendulumCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829C92C921EFD00FCC251 /* PendulumCardsPresenter.swift */; };
-		AAD829CF2C921EFD00FCC251 /* PendulumCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829CA2C921EFD00FCC251 /* PendulumCardsRouter.swift */; };
-		AAD829D02C921EFD00FCC251 /* PendulumCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829CB2C921EFD00FCC251 /* PendulumCardsViewController.swift */; };
-		AAD829D12C921EFD00FCC251 /* PendulumCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829CC2C921EFD00FCC251 /* PendulumCardsProtocols.swift */; };
-		AAD829D22C921EFD00FCC251 /* PendulumCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829CD2C921EFD00FCC251 /* PendulumCardsInteractor.swift */; };
-		AAD829D62C921F2E00FCC251 /* PnedulumCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829D52C921F2E00FCC251 /* PnedulumCardsEntity.swift */; };
-		AAD829DC2C921F4C00FCC251 /* SynchroCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829D72C921F4C00FCC251 /* SynchroCardsPresenter.swift */; };
-		AAD829DD2C921F4C00FCC251 /* SynchroCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829D82C921F4C00FCC251 /* SynchroCardsRouter.swift */; };
-		AAD829DE2C921F4C00FCC251 /* SynchroCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829D92C921F4C00FCC251 /* SynchroCardsViewController.swift */; };
-		AAD829DF2C921F4C00FCC251 /* SynchroCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829DA2C921F4C00FCC251 /* SynchroCardsProtocols.swift */; };
-		AAD829E02C921F4C00FCC251 /* SynchroCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829DB2C921F4C00FCC251 /* SynchroCardsInteractor.swift */; };
-		AAD829E22C921F6500FCC251 /* SynchroCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829E12C921F6500FCC251 /* SynchroCardsEntity.swift */; };
-		AAD829EA2C921F9900FCC251 /* LinkCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829E52C921F9900FCC251 /* LinkCardsPresenter.swift */; };
-		AAD829EB2C921F9900FCC251 /* LinkCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829E62C921F9900FCC251 /* LinkCardsRouter.swift */; };
-		AAD829EC2C921F9900FCC251 /* LinkCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829E72C921F9900FCC251 /* LinkCardsViewController.swift */; };
-		AAD829ED2C921F9900FCC251 /* LinkCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829E82C921F9900FCC251 /* LinkCardsProtocols.swift */; };
-		AAD829EE2C921F9900FCC251 /* LinkCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829E92C921F9900FCC251 /* LinkCardsInteractor.swift */; };
-		AAD829F02C921FA700FCC251 /* LinkCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829EF2C921FA700FCC251 /* LinkCardsEntity.swift */; };
-		AAD829F62C921FCC00FCC251 /* TokenCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829F12C921FCC00FCC251 /* TokenCardsPresenter.swift */; };
-		AAD829F72C921FCC00FCC251 /* TokenCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829F22C921FCC00FCC251 /* TokenCardsRouter.swift */; };
-		AAD829F82C921FCC00FCC251 /* TokenCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829F32C921FCC00FCC251 /* TokenCardsViewController.swift */; };
-		AAD829F92C921FCC00FCC251 /* TokenCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829F42C921FCC00FCC251 /* TokenCardsProtocols.swift */; };
-		AAD829FA2C921FCC00FCC251 /* TokenCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829F52C921FCC00FCC251 /* TokenCardsInteractor.swift */; };
-		AAD829FC2C921FDC00FCC251 /* TokenCardsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD829FB2C921FDC00FCC251 /* TokenCardsEntity.swift */; };
 		AAD82A0E2C92205900FCC251 /* DetailCardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A092C92205900FCC251 /* DetailCardPresenter.swift */; };
 		AAD82A0F2C92205900FCC251 /* DetailCardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A0A2C92205900FCC251 /* DetailCardRouter.swift */; };
 		AAD82A102C92205900FCC251 /* DetailCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A0B2C92205900FCC251 /* DetailCardViewController.swift */; };
 		AAD82A112C92205900FCC251 /* DetailCardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A0C2C92205900FCC251 /* DetailCardProtocols.swift */; };
 		AAD82A122C92205900FCC251 /* DetailCardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A0D2C92205900FCC251 /* DetailCardInteractor.swift */; };
-		AAD82A1F2C92A51C00FCC251 /* TokenCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A1D2C92A51C00FCC251 /* TokenCardsTableViewCell.swift */; };
-		AAD82A202C92A51C00FCC251 /* TokenCardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD82A1E2C92A51C00FCC251 /* TokenCardsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,8 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA6D0AFB2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsViewControllerExtension.swift; sourceTree = "<group>"; };
-		AA6D0AFD2C9D038D006BF170 /* MonsterCardsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonsterCardsViewController.xib; sourceTree = "<group>"; };
 		AA888CC42C86AC1700332E89 /* YuGiOhVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuGiOhVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA888CC72C86AC1700332E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA888CC92C86AC1700332E89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,89 +74,11 @@
 		AA9F1EA52C88FDAA0078A805 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		AA9F1EA92C88FDCF0078A805 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		AA9F1EAD2C88FE000078A805 /* TableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Extension.swift"; sourceTree = "<group>"; };
-		AAC8FD132C9B827F00B4AE5A /* LinkCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD142C9B827F00B4AE5A /* LinkCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LinkCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD1C2C9B885200B4AE5A /* SynchroCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD1D2C9B885200B4AE5A /* SynchroCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SynchroCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD202C9B8C2700B4AE5A /* PendulumCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD212C9B8C2700B4AE5A /* PendulumCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PendulumCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD242C9B8C4700B4AE5A /* XYZCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD252C9B8C4700B4AE5A /* XYZCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XYZCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD282C9B8C5C00B4AE5A /* RitualCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD292C9B8C5C00B4AE5A /* RitualCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RitualCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD2C2C9B8C7000B4AE5A /* FusionCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusionCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD2D2C9B8C7000B4AE5A /* FusionCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FusionCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD302C9B8C7F00B4AE5A /* TrapCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD312C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrapCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAC8FD342C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAC8FD352C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MagicCardsTableViewCell.xib; sourceTree = "<group>"; };
-		AAD829752C91F7F600FCC251 /* MonsterCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829762C91F7F600FCC251 /* MonsterCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829772C91F7F600FCC251 /* MonsterCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829782C91F7F600FCC251 /* MonsterCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829792C91F7F600FCC251 /* MonsterCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD8297F2C91F82500FCC251 /* MonsterCardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardEntity.swift; sourceTree = "<group>"; };
-		AAD829812C921D4100FCC251 /* MagicCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829822C921D4100FCC251 /* MagicCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829832C921D4100FCC251 /* MagicCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829842C921D4100FCC251 /* MagicCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829852C921D4100FCC251 /* MagicCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD8298B2C921D5F00FCC251 /* MagicCardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardEntity.swift; sourceTree = "<group>"; };
-		AAD8298D2C921D9800FCC251 /* TrapCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD8298E2C921D9800FCC251 /* TrapCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsRouter.swift; sourceTree = "<group>"; };
-		AAD8298F2C921D9800FCC251 /* TrapCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829902C921D9800FCC251 /* TrapCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829912C921D9800FCC251 /* TrapCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829972C921DE500FCC251 /* TrapCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsEntity.swift; sourceTree = "<group>"; };
-		AAD829A32C921E1B00FCC251 /* FiusionCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiusionCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829A42C921E1B00FCC251 /* FiusionCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiusionCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829A52C921E1B00FCC251 /* FiusionCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiusionCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829A62C921E1B00FCC251 /* FiusionCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiusionCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829A72C921E1B00FCC251 /* FiusionCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiusionCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829AD2C921E3500FCC251 /* TrapCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapCardsEntity.swift; sourceTree = "<group>"; };
-		AAD829AF2C921E4C00FCC251 /* RitualCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829B02C921E4C00FCC251 /* RitualCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829B12C921E4C00FCC251 /* RitualCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829B22C921E4C00FCC251 /* RitualCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829B32C921E4C00FCC251 /* RitualCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829B92C921E6900FCC251 /* RitualCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualCardsEntity.swift; sourceTree = "<group>"; };
-		AAD829BB2C921E8700FCC251 /* XYZCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829BC2C921E8700FCC251 /* XYZCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829BD2C921E8700FCC251 /* XYZCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829BE2C921E8700FCC251 /* XYZCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829BF2C921E8700FCC251 /* XYZCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829C72C921EB800FCC251 /* XYZCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZCardsEntity.swift; sourceTree = "<group>"; };
-		AAD829C92C921EFD00FCC251 /* PendulumCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829CA2C921EFD00FCC251 /* PendulumCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829CB2C921EFD00FCC251 /* PendulumCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829CC2C921EFD00FCC251 /* PendulumCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829CD2C921EFD00FCC251 /* PendulumCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829D52C921F2E00FCC251 /* PnedulumCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PnedulumCardsEntity.swift; sourceTree = "<group>"; };
-		AAD829D72C921F4C00FCC251 /* SynchroCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829D82C921F4C00FCC251 /* SynchroCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829D92C921F4C00FCC251 /* SynchroCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829DA2C921F4C00FCC251 /* SynchroCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829DB2C921F4C00FCC251 /* SynchroCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829E12C921F6500FCC251 /* SynchroCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroCardsEntity.swift; sourceTree = "<group>"; };
-		AAD829E52C921F9900FCC251 /* LinkCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829E62C921F9900FCC251 /* LinkCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829E72C921F9900FCC251 /* LinkCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829E82C921F9900FCC251 /* LinkCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829E92C921F9900FCC251 /* LinkCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829EF2C921FA700FCC251 /* LinkCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCardsEntity.swift; sourceTree = "<group>"; };
-		AAD829F12C921FCC00FCC251 /* TokenCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardsPresenter.swift; sourceTree = "<group>"; };
-		AAD829F22C921FCC00FCC251 /* TokenCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardsRouter.swift; sourceTree = "<group>"; };
-		AAD829F32C921FCC00FCC251 /* TokenCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardsViewController.swift; sourceTree = "<group>"; };
-		AAD829F42C921FCC00FCC251 /* TokenCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardsProtocols.swift; sourceTree = "<group>"; };
-		AAD829F52C921FCC00FCC251 /* TokenCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardsInteractor.swift; sourceTree = "<group>"; };
-		AAD829FB2C921FDC00FCC251 /* TokenCardsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardsEntity.swift; sourceTree = "<group>"; };
 		AAD82A092C92205900FCC251 /* DetailCardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardPresenter.swift; sourceTree = "<group>"; };
 		AAD82A0A2C92205900FCC251 /* DetailCardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardRouter.swift; sourceTree = "<group>"; };
 		AAD82A0B2C92205900FCC251 /* DetailCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardViewController.swift; sourceTree = "<group>"; };
 		AAD82A0C2C92205900FCC251 /* DetailCardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardProtocols.swift; sourceTree = "<group>"; };
 		AAD82A0D2C92205900FCC251 /* DetailCardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardInteractor.swift; sourceTree = "<group>"; };
-		AAD82A1D2C92A51C00FCC251 /* TokenCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardsTableViewCell.swift; sourceTree = "<group>"; };
-		AAD82A1E2C92A51C00FCC251 /* TokenCardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TokenCardsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,56 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA6D0AF52C9CFC85006BF170 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829772C91F7F600FCC251 /* MonsterCardsViewController.swift */,
-				AA6D0AFB2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift */,
-				AA6D0AFD2C9D038D006BF170 /* MonsterCardsViewController.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		AA6D0AF62C9CFCA1006BF170 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829792C91F7F600FCC251 /* MonsterCardsInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		AA6D0AF72C9CFCBA006BF170 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829782C91F7F600FCC251 /* MonsterCardsProtocols.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		AA6D0AF82C9CFCCF006BF170 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829752C91F7F600FCC251 /* MonsterCardsPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		AA6D0AF92C9CFCF1006BF170 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				AAD8297F2C91F82500FCC251 /* MonsterCardEntity.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		AA6D0AFA2C9CFD03006BF170 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829762C91F7F600FCC251 /* MonsterCardsRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		AA888CBB2C86AC1700332E89 = {
 			isa = PBXGroup;
 			children = (
@@ -422,16 +212,7 @@
 		AA9F1E962C88F9F70078A805 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AAD82A132C92A3D100FCC251 /* MonsterCardsTableViewCell */,
-				AAC8FD122C9B824800B4AE5A /* MagicCardsTableViewCell */,
-				AAC8FD112C9B823900B4AE5A /* TrapCardsTableViewCell */,
-				AAC8FD102C9B822B00B4AE5A /* FusionCardsTableViewCell */,
-				AAC8FD0F2C9B81FF00B4AE5A /* RitualCardsTableViewCell */,
-				AAC8FD0E2C9B81ED00B4AE5A /* XYZCardsTableViewCell */,
-				AAC8FD0D2C9B81DE00B4AE5A /* PendulumCardsTableViewCell */,
-				AAC8FD0C2C9B81D100B4AE5A /* SynchroCrdsTableViewCell */,
-				AAC8FD0B2C9B81AF00B4AE5A /* LinkCardsTableViewCell */,
-				AAD82A182C92A44000FCC251 /* TokenCardsTableViewCell */,
+				AAC2AFEB2CA2589D00123BDE /* MonsterCardsCollectionViewCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -439,16 +220,6 @@
 		AA9F1E982C88FA5C0078A805 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				AA9F1E9A2C88FAD50078A805 /* MonsterCards */,
-				AA9F1E9B2C88FB0C0078A805 /* MagicCards */,
-				AA9F1E9C2C88FB250078A805 /* TrapCards */,
-				AA9F1E9D2C88FB3C0078A805 /* FusionCards */,
-				AA9F1E9E2C88FB4C0078A805 /* RitualCards */,
-				AA9F1E9F2C88FB580078A805 /* XYZCards */,
-				AA9F1EA02C88FB660078A805 /* PendulumCards */,
-				AA9F1EA12C88FBCF0078A805 /* SynchroCards */,
-				AA9F1EA22C88FBD80078A805 /* LinkCards */,
-				AA9F1EA32C88FBE40078A805 /* TokenCards */,
 				AA9F1E992C88FA7B0078A805 /* DetailCard */,
 			);
 			path = Modules;
@@ -464,136 +235,6 @@
 				AAD82A0D2C92205900FCC251 /* DetailCardInteractor.swift */,
 			);
 			path = DetailCard;
-			sourceTree = "<group>";
-		};
-		AA9F1E9A2C88FAD50078A805 /* MonsterCards */ = {
-			isa = PBXGroup;
-			children = (
-				AA6D0AF52C9CFC85006BF170 /* View */,
-				AA6D0AF62C9CFCA1006BF170 /* Interactor */,
-				AA6D0AF72C9CFCBA006BF170 /* Protocols */,
-				AA6D0AF82C9CFCCF006BF170 /* Presenter */,
-				AA6D0AF92C9CFCF1006BF170 /* Entity */,
-				AA6D0AFA2C9CFD03006BF170 /* Router */,
-			);
-			path = MonsterCards;
-			sourceTree = "<group>";
-		};
-		AA9F1E9B2C88FB0C0078A805 /* MagicCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829832C921D4100FCC251 /* MagicCardsViewController.swift */,
-				AAD829852C921D4100FCC251 /* MagicCardsInteractor.swift */,
-				AAD829812C921D4100FCC251 /* MagicCardsPresenter.swift */,
-				AAD829842C921D4100FCC251 /* MagicCardsProtocols.swift */,
-				AAD8298B2C921D5F00FCC251 /* MagicCardEntity.swift */,
-				AAD829822C921D4100FCC251 /* MagicCardsRouter.swift */,
-			);
-			path = MagicCards;
-			sourceTree = "<group>";
-		};
-		AA9F1E9C2C88FB250078A805 /* TrapCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD8298F2C921D9800FCC251 /* TrapCardsViewController.swift */,
-				AAD829912C921D9800FCC251 /* TrapCardsInteractor.swift */,
-				AAD829902C921D9800FCC251 /* TrapCardsProtocols.swift */,
-				AAD8298D2C921D9800FCC251 /* TrapCardsPresenter.swift */,
-				AAD829972C921DE500FCC251 /* TrapCardsEntity.swift */,
-				AAD8298E2C921D9800FCC251 /* TrapCardsRouter.swift */,
-			);
-			path = TrapCards;
-			sourceTree = "<group>";
-		};
-		AA9F1E9D2C88FB3C0078A805 /* FusionCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829A52C921E1B00FCC251 /* FiusionCardsViewController.swift */,
-				AAD829A72C921E1B00FCC251 /* FiusionCardsInteractor.swift */,
-				AAD829A62C921E1B00FCC251 /* FiusionCardsProtocols.swift */,
-				AAD829A32C921E1B00FCC251 /* FiusionCardsPresenter.swift */,
-				AAD829AD2C921E3500FCC251 /* TrapCardsEntity.swift */,
-				AAD829A42C921E1B00FCC251 /* FiusionCardsRouter.swift */,
-			);
-			path = FusionCards;
-			sourceTree = "<group>";
-		};
-		AA9F1E9E2C88FB4C0078A805 /* RitualCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829B12C921E4C00FCC251 /* RitualCardsViewController.swift */,
-				AAD829B32C921E4C00FCC251 /* RitualCardsInteractor.swift */,
-				AAD829B22C921E4C00FCC251 /* RitualCardsProtocols.swift */,
-				AAD829AF2C921E4C00FCC251 /* RitualCardsPresenter.swift */,
-				AAD829B92C921E6900FCC251 /* RitualCardsEntity.swift */,
-				AAD829B02C921E4C00FCC251 /* RitualCardsRouter.swift */,
-			);
-			path = RitualCards;
-			sourceTree = "<group>";
-		};
-		AA9F1E9F2C88FB580078A805 /* XYZCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829BD2C921E8700FCC251 /* XYZCardsViewController.swift */,
-				AAD829BF2C921E8700FCC251 /* XYZCardsInteractor.swift */,
-				AAD829BE2C921E8700FCC251 /* XYZCardsProtocols.swift */,
-				AAD829BB2C921E8700FCC251 /* XYZCardsPresenter.swift */,
-				AAD829C72C921EB800FCC251 /* XYZCardsEntity.swift */,
-				AAD829BC2C921E8700FCC251 /* XYZCardsRouter.swift */,
-			);
-			path = XYZCards;
-			sourceTree = "<group>";
-		};
-		AA9F1EA02C88FB660078A805 /* PendulumCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829CB2C921EFD00FCC251 /* PendulumCardsViewController.swift */,
-				AAD829CD2C921EFD00FCC251 /* PendulumCardsInteractor.swift */,
-				AAD829CC2C921EFD00FCC251 /* PendulumCardsProtocols.swift */,
-				AAD829C92C921EFD00FCC251 /* PendulumCardsPresenter.swift */,
-				AAD829D52C921F2E00FCC251 /* PnedulumCardsEntity.swift */,
-				AAD829CA2C921EFD00FCC251 /* PendulumCardsRouter.swift */,
-			);
-			path = PendulumCards;
-			sourceTree = "<group>";
-		};
-		AA9F1EA12C88FBCF0078A805 /* SynchroCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829D92C921F4C00FCC251 /* SynchroCardsViewController.swift */,
-				AAD829DB2C921F4C00FCC251 /* SynchroCardsInteractor.swift */,
-				AAD829DA2C921F4C00FCC251 /* SynchroCardsProtocols.swift */,
-				AAD829D72C921F4C00FCC251 /* SynchroCardsPresenter.swift */,
-				AAD829E12C921F6500FCC251 /* SynchroCardsEntity.swift */,
-				AAD829D82C921F4C00FCC251 /* SynchroCardsRouter.swift */,
-			);
-			path = SynchroCards;
-			sourceTree = "<group>";
-		};
-		AA9F1EA22C88FBD80078A805 /* LinkCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829E72C921F9900FCC251 /* LinkCardsViewController.swift */,
-				AAD829E92C921F9900FCC251 /* LinkCardsInteractor.swift */,
-				AAD829E82C921F9900FCC251 /* LinkCardsProtocols.swift */,
-				AAD829E52C921F9900FCC251 /* LinkCardsPresenter.swift */,
-				AAD829EF2C921FA700FCC251 /* LinkCardsEntity.swift */,
-				AAD829E62C921F9900FCC251 /* LinkCardsRouter.swift */,
-			);
-			path = LinkCards;
-			sourceTree = "<group>";
-		};
-		AA9F1EA32C88FBE40078A805 /* TokenCards */ = {
-			isa = PBXGroup;
-			children = (
-				AAD829F32C921FCC00FCC251 /* TokenCardsViewController.swift */,
-				AAD829F52C921FCC00FCC251 /* TokenCardsInteractor.swift */,
-				AAD829F42C921FCC00FCC251 /* TokenCardsProtocols.swift */,
-				AAD829F12C921FCC00FCC251 /* TokenCardsPresenter.swift */,
-				AAD829FB2C921FDC00FCC251 /* TokenCardsEntity.swift */,
-				AAD829F22C921FCC00FCC251 /* TokenCardsRouter.swift */,
-			);
-			path = TokenCards;
 			sourceTree = "<group>";
 		};
 		AA9F1EA42C88FD7B0078A805 /* String */ = {
@@ -620,92 +261,11 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
-		AAC8FD0B2C9B81AF00B4AE5A /* LinkCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD132C9B827F00B4AE5A /* LinkCardsTableViewCell.swift */,
-				AAC8FD142C9B827F00B4AE5A /* LinkCardsTableViewCell.xib */,
-			);
-			path = LinkCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAC8FD0C2C9B81D100B4AE5A /* SynchroCrdsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD1C2C9B885200B4AE5A /* SynchroCardsTableViewCell.swift */,
-				AAC8FD1D2C9B885200B4AE5A /* SynchroCardsTableViewCell.xib */,
-			);
-			path = SynchroCrdsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAC8FD0D2C9B81DE00B4AE5A /* PendulumCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD202C9B8C2700B4AE5A /* PendulumCardsTableViewCell.swift */,
-				AAC8FD212C9B8C2700B4AE5A /* PendulumCardsTableViewCell.xib */,
-			);
-			path = PendulumCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAC8FD0E2C9B81ED00B4AE5A /* XYZCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD242C9B8C4700B4AE5A /* XYZCardsTableViewCell.swift */,
-				AAC8FD252C9B8C4700B4AE5A /* XYZCardsTableViewCell.xib */,
-			);
-			path = XYZCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAC8FD0F2C9B81FF00B4AE5A /* RitualCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD282C9B8C5C00B4AE5A /* RitualCardsTableViewCell.swift */,
-				AAC8FD292C9B8C5C00B4AE5A /* RitualCardsTableViewCell.xib */,
-			);
-			path = RitualCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAC8FD102C9B822B00B4AE5A /* FusionCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD2C2C9B8C7000B4AE5A /* FusionCardsTableViewCell.swift */,
-				AAC8FD2D2C9B8C7000B4AE5A /* FusionCardsTableViewCell.xib */,
-			);
-			path = FusionCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAC8FD112C9B823900B4AE5A /* TrapCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD302C9B8C7F00B4AE5A /* TrapCardsTableViewCell.swift */,
-				AAC8FD312C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib */,
-			);
-			path = TrapCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAC8FD122C9B824800B4AE5A /* MagicCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAC8FD342C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift */,
-				AAC8FD352C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib */,
-			);
-			path = MagicCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAD82A132C92A3D100FCC251 /* MonsterCardsTableViewCell */ = {
+		AAC2AFEB2CA2589D00123BDE /* MonsterCardsCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = MonsterCardsTableViewCell;
-			sourceTree = "<group>";
-		};
-		AAD82A182C92A44000FCC251 /* TokenCardsTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				AAD82A1D2C92A51C00FCC251 /* TokenCardsTableViewCell.swift */,
-				AAD82A1E2C92A51C00FCC251 /* TokenCardsTableViewCell.xib */,
-			);
-			path = TokenCardsTableViewCell;
+			path = MonsterCardsCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -812,17 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC8FD2B2C9B8C5C00B4AE5A /* RitualCardsTableViewCell.xib in Resources */,
-				AAC8FD1F2C9B885200B4AE5A /* SynchroCardsTableViewCell.xib in Resources */,
-				AA6D0AFE2C9D038D006BF170 /* MonsterCardsViewController.xib in Resources */,
-				AAC8FD162C9B827F00B4AE5A /* LinkCardsTableViewCell.xib in Resources */,
 				AA888CD12C86AC1A00332E89 /* Assets.xcassets in Resources */,
-				AAD82A202C92A51C00FCC251 /* TokenCardsTableViewCell.xib in Resources */,
-				AAC8FD372C9B8C9900B4AE5A /* MagicCardsTableViewCell.xib in Resources */,
-				AAC8FD232C9B8C2700B4AE5A /* PendulumCardsTableViewCell.xib in Resources */,
-				AAC8FD272C9B8C4700B4AE5A /* XYZCardsTableViewCell.xib in Resources */,
-				AAC8FD2F2C9B8C7000B4AE5A /* FusionCardsTableViewCell.xib in Resources */,
-				AAC8FD332C9B8C7F00B4AE5A /* TrapCardsTableViewCell.xib in Resources */,
 				AA888CD42C86AC1A00332E89 /* Base in Resources */,
 				AA888CCF2C86AC1700332E89 /* Base in Resources */,
 			);
@@ -849,94 +399,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAD829802C91F82500FCC251 /* MonsterCardEntity.swift in Sources */,
 				AA9F1EAE2C88FE000078A805 /* TableViewCell+Extension.swift in Sources */,
-				AAD8298C2C921D5F00FCC251 /* MagicCardEntity.swift in Sources */,
-				AAD8297A2C91F7F600FCC251 /* MonsterCardsPresenter.swift in Sources */,
-				AAD8297B2C91F7F600FCC251 /* MonsterCardsRouter.swift in Sources */,
-				AAD829C02C921E8700FCC251 /* XYZCardsPresenter.swift in Sources */,
-				AAD829C12C921E8700FCC251 /* XYZCardsRouter.swift in Sources */,
-				AAD829C22C921E8700FCC251 /* XYZCardsViewController.swift in Sources */,
-				AAD829C32C921E8700FCC251 /* XYZCardsProtocols.swift in Sources */,
-				AAD829C42C921E8700FCC251 /* XYZCardsInteractor.swift in Sources */,
-				AAD8297C2C91F7F600FCC251 /* MonsterCardsViewController.swift in Sources */,
-				AAD8297D2C91F7F600FCC251 /* MonsterCardsProtocols.swift in Sources */,
-				AAD8297E2C91F7F600FCC251 /* MonsterCardsInteractor.swift in Sources */,
-				AAD829E22C921F6500FCC251 /* SynchroCardsEntity.swift in Sources */,
-				AAD82A1F2C92A51C00FCC251 /* TokenCardsTableViewCell.swift in Sources */,
-				AAD829DC2C921F4C00FCC251 /* SynchroCardsPresenter.swift in Sources */,
-				AAD829DD2C921F4C00FCC251 /* SynchroCardsRouter.swift in Sources */,
-				AAD829DE2C921F4C00FCC251 /* SynchroCardsViewController.swift in Sources */,
-				AAD829EA2C921F9900FCC251 /* LinkCardsPresenter.swift in Sources */,
-				AAD829EB2C921F9900FCC251 /* LinkCardsRouter.swift in Sources */,
-				AAD829EC2C921F9900FCC251 /* LinkCardsViewController.swift in Sources */,
-				AAD829ED2C921F9900FCC251 /* LinkCardsProtocols.swift in Sources */,
-				AAD829EE2C921F9900FCC251 /* LinkCardsInteractor.swift in Sources */,
-				AAD829DF2C921F4C00FCC251 /* SynchroCardsProtocols.swift in Sources */,
-				AAC8FD2E2C9B8C7000B4AE5A /* FusionCardsTableViewCell.swift in Sources */,
-				AAD829E02C921F4C00FCC251 /* SynchroCardsInteractor.swift in Sources */,
 				AA9F1E932C88F9C00078A805 /* CardsPaths.swift in Sources */,
 				AA9F1EA62C88FDAA0078A805 /* String+Extension.swift in Sources */,
 				AA9F1E8E2C88F9910078A805 /* CardsWebService.swift in Sources */,
-				AA6D0AFC2C9D0375006BF170 /* MonsterCardsViewControllerExtension.swift in Sources */,
 				AA888CCC2C86AC1700332E89 /* ViewController.swift in Sources */,
-				AAC8FD322C9B8C7F00B4AE5A /* TrapCardsTableViewCell.swift in Sources */,
 				AA9F1E8B2C88F9480078A805 /* TapBarController.swift in Sources */,
 				AA888CC82C86AC1700332E89 /* AppDelegate.swift in Sources */,
-				AAD829862C921D4100FCC251 /* MagicCardsPresenter.swift in Sources */,
-				AAD829982C921DE500FCC251 /* TrapCardsEntity.swift in Sources */,
-				AAD829872C921D4100FCC251 /* MagicCardsRouter.swift in Sources */,
-				AAC8FD2A2C9B8C5C00B4AE5A /* RitualCardsTableViewCell.swift in Sources */,
-				AAD829882C921D4100FCC251 /* MagicCardsViewController.swift in Sources */,
-				AAD829892C921D4100FCC251 /* MagicCardsProtocols.swift in Sources */,
-				AAD8298A2C921D4100FCC251 /* MagicCardsInteractor.swift in Sources */,
-				AAD829B42C921E4C00FCC251 /* RitualCardsPresenter.swift in Sources */,
-				AAC8FD222C9B8C2700B4AE5A /* PendulumCardsTableViewCell.swift in Sources */,
-				AAD829B52C921E4C00FCC251 /* RitualCardsRouter.swift in Sources */,
-				AAD829B62C921E4C00FCC251 /* RitualCardsViewController.swift in Sources */,
-				AAD829B72C921E4C00FCC251 /* RitualCardsProtocols.swift in Sources */,
-				AAD829BA2C921E6900FCC251 /* RitualCardsEntity.swift in Sources */,
-				AAD829B82C921E4C00FCC251 /* RitualCardsInteractor.swift in Sources */,
 				AA9F1E882C88F9100078A805 /* ModelCards.swift in Sources */,
 				AA9F1E902C88F9A70078A805 /* ErrorsWebService.swift in Sources */,
 				AA888CCA2C86AC1700332E89 /* SceneDelegate.swift in Sources */,
 				AA9F1E952C88F9D70078A805 /* CardsUrlConfiguration.swift in Sources */,
-				AAD829CE2C921EFD00FCC251 /* PendulumCardsPresenter.swift in Sources */,
-				AAD829CF2C921EFD00FCC251 /* PendulumCardsRouter.swift in Sources */,
-				AAD829D02C921EFD00FCC251 /* PendulumCardsViewController.swift in Sources */,
-				AAD829F62C921FCC00FCC251 /* TokenCardsPresenter.swift in Sources */,
-				AAD829F72C921FCC00FCC251 /* TokenCardsRouter.swift in Sources */,
-				AAD829F82C921FCC00FCC251 /* TokenCardsViewController.swift in Sources */,
-				AAC8FD152C9B827F00B4AE5A /* LinkCardsTableViewCell.swift in Sources */,
-				AAD829F92C921FCC00FCC251 /* TokenCardsProtocols.swift in Sources */,
-				AAD829FA2C921FCC00FCC251 /* TokenCardsInteractor.swift in Sources */,
-				AAD829F02C921FA700FCC251 /* LinkCardsEntity.swift in Sources */,
-				AAD829D12C921EFD00FCC251 /* PendulumCardsProtocols.swift in Sources */,
-				AAC8FD362C9B8C9900B4AE5A /* MagicCardsTableViewCell.swift in Sources */,
-				AAD829D22C921EFD00FCC251 /* PendulumCardsInteractor.swift in Sources */,
-				AAD829FC2C921FDC00FCC251 /* TokenCardsEntity.swift in Sources */,
 				AA9F1EAA2C88FDCF0078A805 /* View+Extension.swift in Sources */,
-				AAC8FD1E2C9B885200B4AE5A /* SynchroCardsTableViewCell.swift in Sources */,
-				AAD829922C921D9800FCC251 /* TrapCardsPresenter.swift in Sources */,
-				AAD829932C921D9800FCC251 /* TrapCardsRouter.swift in Sources */,
-				AAD829942C921D9800FCC251 /* TrapCardsViewController.swift in Sources */,
-				AAD829952C921D9800FCC251 /* TrapCardsProtocols.swift in Sources */,
-				AAD829D62C921F2E00FCC251 /* PnedulumCardsEntity.swift in Sources */,
-				AAD829AE2C921E3500FCC251 /* TrapCardsEntity.swift in Sources */,
-				AAD829962C921D9800FCC251 /* TrapCardsInteractor.swift in Sources */,
 				AA888CFA2C86AD4F00332E89 /* Image+Extension.swift in Sources */,
-				AAD829A82C921E1B00FCC251 /* FiusionCardsPresenter.swift in Sources */,
-				AAC8FD262C9B8C4700B4AE5A /* XYZCardsTableViewCell.swift in Sources */,
-				AAD829A92C921E1B00FCC251 /* FiusionCardsRouter.swift in Sources */,
-				AAD829AA2C921E1B00FCC251 /* FiusionCardsViewController.swift in Sources */,
 				AAD82A0E2C92205900FCC251 /* DetailCardPresenter.swift in Sources */,
 				AAD82A0F2C92205900FCC251 /* DetailCardRouter.swift in Sources */,
 				AAD82A102C92205900FCC251 /* DetailCardViewController.swift in Sources */,
 				AAD82A112C92205900FCC251 /* DetailCardProtocols.swift in Sources */,
 				AAD82A122C92205900FCC251 /* DetailCardInteractor.swift in Sources */,
-				AAD829C82C921EB800FCC251 /* XYZCardsEntity.swift in Sources */,
-				AAD829AB2C921E1B00FCC251 /* FiusionCardsProtocols.swift in Sources */,
-				AAD829AC2C921E1B00FCC251 /* FiusionCardsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		AA888CE92C86AC1A00332E89 /* YuGiOhVIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CE82C86AC1A00332E89 /* YuGiOhVIPUITests.swift */; };
 		AA888CEB2C86AC1A00332E89 /* YuGiOhVIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CEA2C86AC1A00332E89 /* YuGiOhVIPUITestsLaunchTests.swift */; };
 		AA888CFA2C86AD4F00332E89 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA888CF92C86AD4F00332E89 /* Image+Extension.swift */; };
+		AA9649092CA4682A00BD3C20 /* MonstersCardsViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9649082CA4682A00BD3C20 /* MonstersCardsViewControllerExtension.swift */; };
+		AA96490B2CA4684D00BD3C20 /* MonstersCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA96490A2CA4684D00BD3C20 /* MonstersCardsViewController.xib */; };
 		AA9F1E882C88F9100078A805 /* ModelCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E872C88F9100078A805 /* ModelCards.swift */; };
 		AA9F1E8B2C88F9480078A805 /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E8A2C88F9480078A805 /* TapBarController.swift */; };
 		AA9F1E8E2C88F9910078A805 /* CardsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E8D2C88F9910078A805 /* CardsWebService.swift */; };
@@ -26,6 +28,13 @@
 		AA9F1EA62C88FDAA0078A805 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EA52C88FDAA0078A805 /* String+Extension.swift */; };
 		AA9F1EAA2C88FDCF0078A805 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EA92C88FDCF0078A805 /* View+Extension.swift */; };
 		AA9F1EAE2C88FE000078A805 /* TableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1EAD2C88FE000078A805 /* TableViewCell+Extension.swift */; };
+		AAC2AFF02CA25AAC00123BDE /* MonsterCardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2AFEE2CA25AAC00123BDE /* MonsterCardsCollectionViewCell.swift */; };
+		AAC2AFF12CA25AAC00123BDE /* MonsterCardsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC2AFEF2CA25AAC00123BDE /* MonsterCardsCollectionViewCell.xib */; };
+		AAC2AFF92CA25BC600123BDE /* MonstersCardsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2AFF42CA25BC600123BDE /* MonstersCardsPresenter.swift */; };
+		AAC2AFFA2CA25BC600123BDE /* MonstersCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2AFF52CA25BC600123BDE /* MonstersCardsRouter.swift */; };
+		AAC2AFFB2CA25BC600123BDE /* MonstersCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2AFF62CA25BC600123BDE /* MonstersCardsViewController.swift */; };
+		AAC2AFFC2CA25BC600123BDE /* MonstersCardsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2AFF72CA25BC600123BDE /* MonstersCardsProtocols.swift */; };
+		AAC2AFFD2CA25BC600123BDE /* MonstersCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC2AFF82CA25BC600123BDE /* MonstersCardsInteractor.swift */; };
 		AAD82A0E2C92205900FCC251 /* DetailCardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A092C92205900FCC251 /* DetailCardPresenter.swift */; };
 		AAD82A0F2C92205900FCC251 /* DetailCardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A0A2C92205900FCC251 /* DetailCardRouter.swift */; };
 		AAD82A102C92205900FCC251 /* DetailCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD82A0B2C92205900FCC251 /* DetailCardViewController.swift */; };
@@ -65,6 +74,8 @@
 		AA888CE82C86AC1A00332E89 /* YuGiOhVIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuGiOhVIPUITests.swift; sourceTree = "<group>"; };
 		AA888CEA2C86AC1A00332E89 /* YuGiOhVIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuGiOhVIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA888CF92C86AD4F00332E89 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		AA9649082CA4682A00BD3C20 /* MonstersCardsViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersCardsViewControllerExtension.swift; sourceTree = "<group>"; };
+		AA96490A2CA4684D00BD3C20 /* MonstersCardsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonstersCardsViewController.xib; sourceTree = "<group>"; };
 		AA9F1E872C88F9100078A805 /* ModelCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCards.swift; sourceTree = "<group>"; };
 		AA9F1E8A2C88F9480078A805 /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
 		AA9F1E8D2C88F9910078A805 /* CardsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsWebService.swift; sourceTree = "<group>"; };
@@ -74,12 +85,23 @@
 		AA9F1EA52C88FDAA0078A805 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		AA9F1EA92C88FDCF0078A805 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		AA9F1EAD2C88FE000078A805 /* TableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		AAC2AFEE2CA25AAC00123BDE /* MonsterCardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AAC2AFEF2CA25AAC00123BDE /* MonsterCardsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonsterCardsCollectionViewCell.xib; sourceTree = "<group>"; };
+		AAC2AFF42CA25BC600123BDE /* MonstersCardsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersCardsPresenter.swift; sourceTree = "<group>"; };
+		AAC2AFF52CA25BC600123BDE /* MonstersCardsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersCardsRouter.swift; sourceTree = "<group>"; };
+		AAC2AFF62CA25BC600123BDE /* MonstersCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersCardsViewController.swift; sourceTree = "<group>"; };
+		AAC2AFF72CA25BC600123BDE /* MonstersCardsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersCardsProtocols.swift; sourceTree = "<group>"; };
+		AAC2AFF82CA25BC600123BDE /* MonstersCardsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersCardsInteractor.swift; sourceTree = "<group>"; };
 		AAD82A092C92205900FCC251 /* DetailCardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardPresenter.swift; sourceTree = "<group>"; };
 		AAD82A0A2C92205900FCC251 /* DetailCardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardRouter.swift; sourceTree = "<group>"; };
 		AAD82A0B2C92205900FCC251 /* DetailCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardViewController.swift; sourceTree = "<group>"; };
 		AAD82A0C2C92205900FCC251 /* DetailCardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardProtocols.swift; sourceTree = "<group>"; };
 		AAD82A0D2C92205900FCC251 /* DetailCardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA96490C2CA4787E00BD3C20 /* ViewController */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewController; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA888CC12C86AC1700332E89 /* Frameworks */ = {
@@ -166,6 +188,7 @@
 		AA888CF72C86AD2E00332E89 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				AA96490C2CA4787E00BD3C20 /* ViewController */,
 				AA9F1EAB2C88FDD90078A805 /* TableViewCell */,
 				AA9F1EA72C88FDB40078A805 /* View */,
 				AA9F1EA42C88FD7B0078A805 /* String */,
@@ -220,6 +243,7 @@
 		AA9F1E982C88FA5C0078A805 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AAC2AFF22CA25B5C00123BDE /* MonstersCards */,
 				AA9F1E992C88FA7B0078A805 /* DetailCard */,
 			);
 			path = Modules;
@@ -264,8 +288,72 @@
 		AAC2AFEB2CA2589D00123BDE /* MonsterCardsCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				AAC2AFEE2CA25AAC00123BDE /* MonsterCardsCollectionViewCell.swift */,
+				AAC2AFEF2CA25AAC00123BDE /* MonsterCardsCollectionViewCell.xib */,
 			);
 			path = MonsterCardsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		AAC2AFF22CA25B5C00123BDE /* MonstersCards */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2AFFE2CA25BCC00123BDE /* View */,
+				AAC2AFFF2CA25BD600123BDE /* Interactor */,
+				AAC2B0002CA25BDE00123BDE /* Protocols */,
+				AAC2B0012CA25BE700123BDE /* Presenter */,
+				AAC2B0032CA25BFD00123BDE /* Entity */,
+				AAC2B0042CA25C0100123BDE /* Router */,
+			);
+			path = MonstersCards;
+			sourceTree = "<group>";
+		};
+		AAC2AFFE2CA25BCC00123BDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2AFF62CA25BC600123BDE /* MonstersCardsViewController.swift */,
+				AA9649082CA4682A00BD3C20 /* MonstersCardsViewControllerExtension.swift */,
+				AA96490A2CA4684D00BD3C20 /* MonstersCardsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAC2AFFF2CA25BD600123BDE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2AFF82CA25BC600123BDE /* MonstersCardsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AAC2B0002CA25BDE00123BDE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2AFF72CA25BC600123BDE /* MonstersCardsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AAC2B0012CA25BE700123BDE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2AFF42CA25BC600123BDE /* MonstersCardsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AAC2B0032CA25BFD00123BDE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AAC2B0042CA25C0100123BDE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2AFF52CA25BC600123BDE /* MonstersCardsRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +370,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA96490C2CA4787E00BD3C20 /* ViewController */,
 			);
 			name = YuGiOhVIP;
 			productName = YuGiOhVIP;
@@ -332,7 +423,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					AA888CC32C86AC1700332E89 = {
 						CreatedOnToolsVersion = 15.4;
@@ -374,7 +465,9 @@
 			files = (
 				AA888CD12C86AC1A00332E89 /* Assets.xcassets in Resources */,
 				AA888CD42C86AC1A00332E89 /* Base in Resources */,
+				AA96490B2CA4684D00BD3C20 /* MonstersCardsViewController.xib in Resources */,
 				AA888CCF2C86AC1700332E89 /* Base in Resources */,
+				AAC2AFF12CA25AAC00123BDE /* MonsterCardsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9649092CA4682A00BD3C20 /* MonstersCardsViewControllerExtension.swift in Sources */,
 				AA9F1EAE2C88FE000078A805 /* TableViewCell+Extension.swift in Sources */,
 				AA9F1E932C88F9C00078A805 /* CardsPaths.swift in Sources */,
 				AA9F1EA62C88FDAA0078A805 /* String+Extension.swift in Sources */,
@@ -411,12 +505,18 @@
 				AA888CCA2C86AC1700332E89 /* SceneDelegate.swift in Sources */,
 				AA9F1E952C88F9D70078A805 /* CardsUrlConfiguration.swift in Sources */,
 				AA9F1EAA2C88FDCF0078A805 /* View+Extension.swift in Sources */,
+				AAC2AFF92CA25BC600123BDE /* MonstersCardsPresenter.swift in Sources */,
+				AAC2AFFA2CA25BC600123BDE /* MonstersCardsRouter.swift in Sources */,
+				AAC2AFFB2CA25BC600123BDE /* MonstersCardsViewController.swift in Sources */,
+				AAC2AFFC2CA25BC600123BDE /* MonstersCardsProtocols.swift in Sources */,
+				AAC2AFFD2CA25BC600123BDE /* MonstersCardsInteractor.swift in Sources */,
 				AA888CFA2C86AD4F00332E89 /* Image+Extension.swift in Sources */,
 				AAD82A0E2C92205900FCC251 /* DetailCardPresenter.swift in Sources */,
 				AAD82A0F2C92205900FCC251 /* DetailCardRouter.swift in Sources */,
 				AAD82A102C92205900FCC251 /* DetailCardViewController.swift in Sources */,
 				AAD82A112C92205900FCC251 /* DetailCardProtocols.swift in Sources */,
 				AAD82A122C92205900FCC251 /* DetailCardInteractor.swift in Sources */,
+				AAC2AFF02CA25AAC00123BDE /* MonsterCardsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +760,6 @@
 		AA888CF22C86AC1A00332E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -680,7 +779,6 @@
 		AA888CF32C86AC1A00332E89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -700,7 +798,6 @@
 		AA888CF52C86AC1A00332E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XF4JK5557K;
@@ -718,7 +815,6 @@
 		AA888CF62C86AC1A00332E89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XF4JK5557K;

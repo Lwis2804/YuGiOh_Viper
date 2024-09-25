@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CardsUrlCoinfiguration {
+struct CardsUrlConfiguration {
     var metodo : String
     var host : String
     var path : PathsProtocol

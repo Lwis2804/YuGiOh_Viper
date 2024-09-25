@@ -8,14 +8,14 @@
 import Foundation
 
 protocol NetworkApiProtocol : AnyObject {
-    var urlConfiguration : CardsUrlCoinfiguration { get set }
+    var urlConfiguration : CardsUrlConfiguration { get set }
     func consumeService <T : Decodable> (withCompilationHbadler handler : @escaping (Result <T, ErrorsWebService>) -> Void)
 }
 
 class CardsWebService : NetworkApiProtocol {
-    var urlConfiguration: CardsUrlCoinfiguration
+    var urlConfiguration: CardsUrlConfiguration
     
-    init(urlConfiguration: CardsUrlCoinfiguration) {
+    init(urlConfiguration: CardsUrlConfiguration) {
         self.urlConfiguration = urlConfiguration
     }
     

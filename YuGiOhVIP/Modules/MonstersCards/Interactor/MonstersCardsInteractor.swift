@@ -16,7 +16,7 @@ class MonstersCardsInteractor: MonstersCards_PresenterToInteractorProtocol {
     
     func getMonstersCardsToInteractor() {
         
-        let service : NetworkApiProtocol = CardsWebService(urlConfiguration: CardsUrlConfiguration(metodo: metodo, host: host, path: cardsPath.getMonstersCards.getPath()))
+        let service : NetworkApiProtocol = CardsWebService(urlConfiguration: CardsUrlConfiguration(metodo: metodo, host: host, path: cardsPath.getCards.getPath()))
         
         service.consumeService{ [weak self] (result : Result<[DataCard], ErrorsWebService>) in
             

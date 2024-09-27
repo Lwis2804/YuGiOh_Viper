@@ -27,6 +27,11 @@ class MonstersCardsViewController: UIViewController {
         setUpCollectionView()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.view.activityStartAnimating(activityColor: .white, backgroundColor: UIColor.black.withAlphaComponent(0.5))
+    }
+    
     
     func setUpCollectionView() {
         self.monstersCollectionView.delegate = self
@@ -38,7 +43,7 @@ class MonstersCardsViewController: UIViewController {
 // MARK: - P R E S E N T E R · T O · V I E W
 extension MonstersCardsViewController: MonstersCards_PresenterToViewProtocol {
     func updateMonstersCards(withResponse response: [DataCard]) {
-        self.view.activityStartAnimating(activityColor: .white, backgroundColor: UIColor.black.withAlphaComponent(0.5))
+        
         self.getCardsMonsters = self.getAndSplitCard(with: response, andType: "Effect Monster")
         DispatchQueue.main.async {
             self.monstersCollectionView.reloadData()

@@ -4,7 +4,7 @@
 //  
 //  ViperTemplate v.0.0.1 - (2023, NS-Bionick Development Team)
 
-import Foundation
+import UIKit
 
 class MonstersCardsInteractor: MonstersCards_PresenterToInteractorProtocol {
           // "https://db.ygoprodeck.com/api/v7/cardinfo.php"
@@ -12,14 +12,15 @@ class MonstersCardsInteractor: MonstersCards_PresenterToInteractorProtocol {
     weak var presenter: MonstersCards_InteractorToPresenterProtocol?
     private var metodo : String = "https"
     private var host : String = "//db.ygoprodeck.com"
+
     
     func getMonstersCardsToInteractor() {
-        let service : NetworkApiProtocol = CardsWebService(urlConfiguration: CardsUrlConfiguration(metodo: metodo, host: host, path: cardsPath.getMonstersCards.getPath() as! PathsProtocol))
         
-        service.consumeService{ [weak self] (result : Result<DataCard, ErrorsWebService>) in
+        let service : NetworkApiProtocol = CardsWebService(urlConfiguration: CardsUrlConfiguration(metodo: metodo, host: host, path: cardsPath.getMonstersCards.getPath()))
+        
+        service.consumeService{ [weak self] (result : Result<[DataCard], ErrorsWebService>) in
             
             switch result {
-                
             case .success(let succes):
                 print(succes)
                 self?.presenter?.getMonstersCardsFromInteractor(withResponse: succes)

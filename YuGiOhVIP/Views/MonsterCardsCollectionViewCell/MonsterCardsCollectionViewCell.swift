@@ -26,10 +26,10 @@ class MonsterCardsCollectionViewCell: UICollectionViewCell {
     
     //MARK: - FUNCTIONS
     
-    public func setUpCardList (categoria : DataCard) {
-        self.monsterName.text = categoria.name
+    public func setUpCardList (categoria : DataCard?) {
+        self.monsterName.text = "\(categoria?.name ?? "")"
         
-        if let urlPoster = categoria.card_images,
+        if let urlPoster = categoria?.card_images,
            let url = URL(string: "\(urlPoster[0].image_url_small ?? "")") {
             downloadTask = monsterImage.loadImage(url: url)
         }
@@ -40,3 +40,4 @@ class MonsterCardsCollectionViewCell: UICollectionViewCell {
     }
     */
 }
+

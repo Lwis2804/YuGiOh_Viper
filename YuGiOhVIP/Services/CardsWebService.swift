@@ -20,7 +20,7 @@ class CardsWebService : NetworkApiProtocol {
     }
     
     func consumeService<T>(withCompilationHbadler handler: @escaping (Result<T, ErrorsWebService>) -> Void) where T : Decodable {
-        guard let url = urlConfiguration.configUrl() else {
+        guard let url = urlConfiguration.cofingUrl() else {
             handler(.failure(.wrongUrl))
             return
         }

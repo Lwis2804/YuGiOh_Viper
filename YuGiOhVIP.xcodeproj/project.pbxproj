@@ -101,6 +101,7 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AA96490C2CA4787E00BD3C20 /* ViewController */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewController; sourceTree = "<group>"; };
+		AA96490F2CA492F200BD3C20 /* UICollectionView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = UICollectionView; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +189,7 @@
 		AA888CF72C86AD2E00332E89 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				AA96490F2CA492F200BD3C20 /* UICollectionView */,
 				AA96490C2CA4787E00BD3C20 /* ViewController */,
 				AA9F1EAB2C88FDD90078A805 /* TableViewCell */,
 				AA9F1EA72C88FDB40078A805 /* View */,
@@ -373,6 +375,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				AA96490C2CA4787E00BD3C20 /* ViewController */,
+				AA96490F2CA492F200BD3C20 /* UICollectionView */,
 			);
 			name = YuGiOhVIP;
 			productName = YuGiOhVIP;

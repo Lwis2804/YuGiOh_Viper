@@ -13,14 +13,38 @@ class MonstersCardsViewController: UIViewController {
     
     
     var presenter: MonstersCards_ViewToPresenterProtocol?
+    let search = UISearchController(searchResultsController: nil)
+   // var isSearchEmpty : Bool {return search.searchBar.text?.isEmpty ?? true}
+    var isFiltering : Bool {return search.isActive/* && !isSearchEmpty*/}
+    var arrCardFilter : [DataCard] = []
+    var getCardsMonsters : [DataCard]?
+   
 
     // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter?.getToMonstersCards()
+        setUpCollectionView()
+    }
+    
+    
+    func setUpCollectionView() {
+        self.monstersCollectionView.delegate = self
+        self.monstersCollectionView.dataSource = self
+        self.monstersCollectionView.register(MonsterCardsCollectionViewCell.nib, forCellWithReuseIdentifier: MonsterCardsCollectionViewCell.identifier)
     }
 }
 
 // MARK: - P R E S E N T E R · T O · V I E W
 extension MonstersCardsViewController: MonstersCards_PresenterToViewProtocol {
+    func updateMonstersCards(withResponse response: [DataCard]) {
+        self.view.activityStartAnimating(activityColor: .white, backgroundColor: UIColor.black.withAlphaComponent(0.5))
+        self.getCardsMonsters = self.getAndSplitCard(with: response, andType: "Effect Monster")
+        DispatchQueue.main.async {
+            self.monstersCollectionView.reloadData()
+            self.view.activityStopAnimating()
+        }
+    }
+    
     
 }

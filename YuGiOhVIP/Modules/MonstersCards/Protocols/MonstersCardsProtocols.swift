@@ -76,7 +76,7 @@ protocol MonstersCards_PresenterToInteractorProtocol: AnyObject {
 // MARK: INTERACTOR -> PRESENTER
 protocol MonstersCards_InteractorToPresenterProtocol: AnyObject {
     
-    func getMonstersCardsFromInteractor(withResponse response: DataCard)
+    func getMonstersCardsFromInteractor(withResponse response: [DataCard])
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -95,7 +95,7 @@ protocol MonstersCards_InteractorToPresenterProtocol: AnyObject {
 protocol MonstersCards_PresenterToViewProtocol: AnyObject {
     var presenter: MonstersCards_ViewToPresenterProtocol? { get set }
     
-    func updateMonstersCards(withResponse response : DataCard)
+    func updateMonstersCards(withResponse response : [DataCard])
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -111,4 +111,8 @@ protocol MonstersCards_PresenterToViewProtocol: AnyObject {
 
 // MARK: PRESENTER -> ROUTER
 protocol MonstersCards_PresenterToRouterProtocol: AnyObject {
+}
+
+protocol PathsProtocol {
+    var pathToUse : String { get } // NO ME QUEDA MUY CLARO EL USO DE ESTA VARIABLE, ES SOLO DE LECTURA PERO COMO LA ESTOY USANDO
 }

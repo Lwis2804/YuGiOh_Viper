@@ -20,7 +20,7 @@ class MonstersCardsPresenter: MonstersCards_ViewToPresenterProtocol {
 
 // MARK: - I N T E R A C T O R · T O · P R E S E N T E R
 extension MonstersCardsPresenter: MonstersCards_InteractorToPresenterProtocol {
-    func getMonstersCardsFromInteractor(withResponse response: DataCard) {
+    func getMonstersCardsFromInteractor(withResponse response: [DataCard]) {
         view?.updateMonstersCards(withResponse: response)
     }
     

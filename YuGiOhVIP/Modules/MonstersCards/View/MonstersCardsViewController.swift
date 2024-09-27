@@ -8,14 +8,13 @@ import UIKit
 
 class MonstersCardsViewController: UIViewController {
     
-    
     @IBOutlet weak var monstersCollectionView: UICollectionView!
     
     
     var presenter: MonstersCards_ViewToPresenterProtocol?
     let search = UISearchController(searchResultsController: nil)
-   // var isSearchEmpty : Bool {return search.searchBar.text?.isEmpty ?? true}
-    var isFiltering : Bool {return search.isActive/* && !isSearchEmpty*/}
+    var isSearchEmpty : Bool {return search.searchBar.text?.isEmpty ?? true}
+    var isFiltering : Bool {return search.isActive && !isSearchEmpty}
     var arrCardFilter : [DataCard] = []
     var getCardsMonsters : [DataCard]?
    
@@ -25,6 +24,8 @@ class MonstersCardsViewController: UIViewController {
         super.viewDidLoad()
         presenter?.getToMonstersCards()
         setUpCollectionView()
+        setUpSearchBar()
+        setUpSearchBarProperties()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -38,6 +39,21 @@ class MonstersCardsViewController: UIViewController {
         self.monstersCollectionView.dataSource = self
         self.monstersCollectionView.register(MonsterCardsCollectionViewCell.nib, forCellWithReuseIdentifier: MonsterCardsCollectionViewCell.identifier)
     }
+    
+    
+    private func setUpSearchBar() {
+        search.searchResultsUpdater = self
+        search.obscuresBackgroundDuringPresentation = false
+        search.searchBar.searchTextField.placeholder = "Search your Card"
+        self.navigationItem.searchController = search
+        definesPresentationContext = true
+    }
+    
+    private func setUpSearchBarProperties() {
+        search.automaticallyShowsCancelButton = true
+        search.automaticallyShowsScopeBar = true
+        search.automaticallyShowsSearchResultsController = true
+    }
 }
 
 // MARK: - P R E S E N T E R · T O · V I E W
@@ -50,6 +66,4 @@ extension MonstersCardsViewController: MonstersCards_PresenterToViewProtocol {
             self.view.activityStopAnimating()
         }
     }
-    
-    
 }

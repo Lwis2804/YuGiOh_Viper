@@ -35,3 +35,21 @@ extension MonstersCardsViewController : UICollectionViewDelegateFlowLayout {
     
 
 }
+
+//MARK: - U I S E A R C H  R E S U L T
+
+extension MonstersCardsViewController : UISearchResultsUpdating {
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        let searchBar = searchController.searchBar
+        buscarCartas(conCoincidencia: searchBar.text ?? "")
+    }
+    
+    func buscarCartas(conCoincidencia: String) {
+        guard let arrMonsters = getCardsMonsters else { return }
+        arrCardFilter = (arrMonsters.filter({ (carta : DataCard) -> Bool in
+            return (carta.name?.lowercased().contains(conCoincidencia.lowercased()) ?? false)
+        }) )
+        monstersCollectionView.reloadData()
+    }
+}

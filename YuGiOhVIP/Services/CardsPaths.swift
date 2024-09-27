@@ -16,8 +16,7 @@ enum cardsPath {
     func getPath() -> String {
         switch self {
         case .getCards:
-            return "https://db.ygoprodeck.com/api/v7/cardinfo.php"
-      
+            return "/api/v7/cardinfo.php"
         case .getSearch:
             return ""
         }
@@ -26,3 +25,4 @@ enum cardsPath {
 
 
 //"https://db.ygoprodeck.com/api/v7/cardinfo.php?name=\(strSearchWeb)"
+//"https://db.ygoprodeck.com/api/v7/cardinfo.php"

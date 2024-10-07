@@ -19,7 +19,7 @@ extension MonstersCardsViewController : UICollectionViewDelegate & UICollectionV
         cCell.setUpCardList(categoria: arrSetUpCards?[indexPath.row])
         return cCell
     }
-}..............................................,,,,,,,
+}
 
 extension MonstersCardsViewController : UICollectionViewDelegateFlowLayout {
     

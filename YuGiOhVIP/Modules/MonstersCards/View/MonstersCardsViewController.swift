@@ -58,9 +58,9 @@ class MonstersCardsViewController: UIViewController {
 
 // MARK: - P R E S E N T E R · T O · V I E W
 extension MonstersCardsViewController: MonstersCards_PresenterToViewProtocol {
-    func updateMonstersCards(withResponse response: [DataCard]) {
+    func updateMonstersCards(withResponse response: CardResponse) {
         
-        self.getCardsMonsters = self.getAndSplitCard(with: response, andType: "Effect Monster")
+        self.getCardsMonsters = self.getAndSplitCard(with: response.dataCard ?? [], andType: "Effect Monster")
         DispatchQueue.main.async {
             self.monstersCollectionView.reloadData()
             self.view.activityStopAnimating()

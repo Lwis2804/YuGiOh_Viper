@@ -76,7 +76,7 @@ protocol MonstersCards_PresenterToInteractorProtocol: AnyObject {
 // MARK: INTERACTOR -> PRESENTER
 protocol MonstersCards_InteractorToPresenterProtocol: AnyObject {
     
-    func getMonstersCardsFromInteractor(withResponse response: [DataCard])
+    func getMonstersCardsFromInteractor(withResponse response: CardResponse)
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -95,7 +95,7 @@ protocol MonstersCards_InteractorToPresenterProtocol: AnyObject {
 protocol MonstersCards_PresenterToViewProtocol: AnyObject {
     var presenter: MonstersCards_ViewToPresenterProtocol? { get set }
     
-    func updateMonstersCards(withResponse response : [DataCard])
+    func updateMonstersCards(withResponse response : CardResponse)
 }
 
 //MARK: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
